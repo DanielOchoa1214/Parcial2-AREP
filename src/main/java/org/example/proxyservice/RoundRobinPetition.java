@@ -9,7 +9,7 @@ import java.net.URL;
 
 public class RoundRobinPetition {
     private static final String USER_AGENT = "Mozilla/5.0";
-    private static final String[] servers = {"localhost", "localhost"};
+    private static final String[] servers = {"52.91.87.166", "54.224.65.195"};
     private static int robinCount = 0;
 
     public static String makePetition(String value) throws IOException {

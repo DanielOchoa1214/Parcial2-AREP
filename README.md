@@ -47,7 +47,7 @@ Ya con los servicios corriendo entramos la siguiente URL: http://ec2-54-89-40-80
 
 ## Video
 
-Y para que me creas en el repo te deje un video de la pagina funcionando, su nombre es "Parcial2Video.mp4" y esta en el root del proyecto
+Y para que me creas, aqui te dejo un link del video de la pagina funcionando: https://youtu.be/iliPbrrS-5Q
 
 
 

@@ -25,8 +25,22 @@ Para correr el programa en AWS con la arquitectura propuesta lo primero que hace
 
 ![image](https://github.com/DanielOchoa1214/Parcial2-AREP/assets/77862016/94848fa5-fde9-4ed4-b3ad-2861ad9701c1)
 
-Cuando tengamos las 3 maquinas creadas, instalamos git y java. Con estas tecnologias instaladas, lo primero que hacemos es clonar este repositorio en todas las maquinas con el siguiente comando 
+Cuando tengamos las 3 maquinas creadas, y con ayuda del instalador de Linux "yum" instalamos git y java. Con estas tecnologias instaladas, lo primero que hacemos es clonar este repositorio en todas las maquinas con el siguiente comando 
 
-'''
-git clone 
-'''
+```
+git clone https://github.com/DanielOchoa1214/Parcial2-AREP.git
+```
+
+Ya con el codigo fuente en las maquinas virtuales, corremos los siguientes comandos en las maquinas respectivas:
+
+Proxy: 
+```
+java -cp "./target/classes:./target/dependency/*"  org.example.proxyservice.ProxyService
+```
+
+Mathservice1 y MathService2:
+```
+java -cp "./target/classes:./target/dependency/*"  org.example.mathservice.MathService
+```
+
+Ya con los servicios corriendo entramos la siguiente URL: 

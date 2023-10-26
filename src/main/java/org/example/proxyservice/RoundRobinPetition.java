@@ -13,6 +13,7 @@ public class RoundRobinPetition {
     private static int robinCount = 0;
 
     public static String makePetition(String value) throws IOException {
+        System.out.println(getUrl(Integer.parseInt(value)));
         URL obj = new URL(getUrl(Integer.parseInt(value)));
         HttpURLConnection con = (HttpURLConnection) obj.openConnection();
         con.setRequestMethod("GET");

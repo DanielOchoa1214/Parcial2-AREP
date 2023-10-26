@@ -45,3 +45,7 @@ java -cp "./target/classes:./target/dependency/*"  org.example.mathservice.MathS
 
 Ya con los servicios corriendo entramos la siguiente URL: http://ec2-54-89-40-80.compute-1.amazonaws.com:4567/ y ahi encontraras el mismo formulario ya desplegado!!
 
+Y para que me creas aqui te muestro un video de la pagina funcionando
+
+
+
